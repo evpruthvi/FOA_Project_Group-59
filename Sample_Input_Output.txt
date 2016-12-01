@@ -1,0 +1,77 @@
+Before trains are started.
+S - F - F - X * * 
+* * | * * * * * * 
+X - R - R - R - R 
+* * | * * * | * | 
+X - L - X * X * X 
+* * | * * * * * * 
+X - R - X * * * * 
+* * | * * * * * * 
+* * L - F - F - X 
+
+For Destination [8,8], Path calculated is: [0.0, 0.1, 0.2, 1.2, 2.2, 3.2, 4.2, 5.2, 6.2, 7.2, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, 8.8]
+Total number of turn outs required: 4
+Turn outs are: [At:[0,2], from: F->R, At:[2,2], from: R->F, At:[4,2], from: L->F, At:[6,2], from: R->F]
+S	-	R	-	F	-	X	*	*	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	R	-	R	-	R	
+*	*	|	*	*	*	|	*	|	
+X	-	F	-	X	*	X	*	X	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	X	*	*	*	*	
+*	*	|	*	*	*	*	*	*	
+*	*	L	-	F	-	F	-	X	
+
+For Destination [4,4], Path calculated is: [0.0, 0.1, 0.2, 1.2, 2.2, 3.2, 4.2, 4.3, 4.4]
+Total number of turn outs required: 1
+Turn outs are: [At:[4,2], from: F->L]
+S	-	R	-	F	-	X	*	*	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	R	-	R	-	R	
+*	*	|	*	*	*	|	*	|	
+X	-	L	-	X	*	X	*	X	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	X	*	*	*	*	
+*	*	|	*	*	*	*	*	*	
+*	*	L	-	F	-	F	-	X	
+
+For Destination [4,8], Path calculated is: [0.0, 0.1, 0.2, 1.2, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.8, 4.8]
+Total number of turn outs required: 3
+Turn outs are: [At:[2,2], from: F->L, At:[2,4], from: R->F, At:[2,6], from: R->F]
+S	-	R	-	F	-	X	*	*	
+*	*	|	*	*	*	*	*	*	
+X	-	L	-	F	-	F	-	R	
+*	*	|	*	*	*	|	*	|	
+X	-	L	-	X	*	X	*	X	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	X	*	*	*	*	
+*	*	|	*	*	*	*	*	*	
+*	*	L	-	F	-	F	-	X	
+
+For Destination [4,0], Path calculated is: [0.0, 0.1, 0.2, 1.2, 2.2, 3.2, 4.2, 4.1, 4.0]
+Total number of turn outs required: 2
+Turn outs are: [At:[2,2], from: L->F, At:[4,2], from: L->R]
+S	-	R	-	F	-	X	*	*	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	F	-	F	-	R	
+*	*	|	*	*	*	|	*	|	
+X	-	R	-	X	*	X	*	X	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	X	*	*	*	*	
+*	*	|	*	*	*	*	*	*	
+*	*	L	-	F	-	F	-	X	
+
+For Destination [6,0], Path calculated is: [0.0, 0.1, 0.2, 1.2, 2.2, 3.2, 4.2, 5.2, 6.2, 6.1, 6.0]
+Total number of turn outs required: 2
+Turn outs are: [At:[4,2], from: R->F, At:[6,2], from: F->R]
+S	-	R	-	F	-	X	*	*	
+*	*	|	*	*	*	*	*	*	
+X	-	F	-	F	-	F	-	R	
+*	*	|	*	*	*	|	*	|	
+X	-	F	-	X	*	X	*	X	
+*	*	|	*	*	*	*	*	*	
+X	-	R	-	X	*	*	*	*	
+*	*	|	*	*	*	*	*	*	
+*	*	L	-	F	-	F	-	X	
+
+Destination [8,0], is not valid!
